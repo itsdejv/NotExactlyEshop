@@ -1,19 +1,6 @@
-# login-application
-Hello,
+# NotExactlyEshop   
+This is my project, which is written in pure PHP. It is a project that is supposed to represent an e-shop.
 
-This is my simple login application which I've created.
-In this project i used OOP, to improve clarity of the project.
+In the SQLdatab folder, a database can be found that can be imported into MySQL. Basically, a profile is created with the email testadmin@test.cz with the password 789789789. This profile is set to admin status, so you can edit, delete, add products.
 
-The project also contains simple editing profile page, where you can edit your profiles.
-
-In addition to the login system, the app also provides an easy way to add photos to the gallery and possibly delete photos from the gallery.
-
-Project uses:
-    localhosted database called "LoginApplication"
-        table "users"
-        table "profiles"
-        table "gallery"
-
-WARNING:
-    This project does not contain all of the css files! So don't be surprised that it looks ugly!
-
+The project contains Bootstrap v. 5.0, some pages have a visual page, but some do not. 

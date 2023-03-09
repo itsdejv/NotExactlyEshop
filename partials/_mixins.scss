@@ -1,0 +1,23 @@
+@mixin leftAlignText{
+    text-align: left;
+}
+
+@mixin defaultBackgroundImageSettings{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@mixin fullScreenForm{
+    background-color: rgba(52, 52, 52, 0.374);
+    
+    position: fixed;
+
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+}
